@@ -1,0 +1,9 @@
+1. The general trend in the curve is that with more percentage of training data used and more trials, the higher the accuracy.
+
+2. It looks like the very bottom has the most amount of noise, potentially because there is more randomness in the
+   determination because of less training data being used to make an "educated guess."
+
+3. About 1000 trials made a somewhat smooth curve after a few runs.
+
+4. When I lowered C to 4**-3 the curve smooths out significantly and the accuracy is increased up towards 90%. I'm not 100% sure
+   what this parameter does and how it affects the data.
